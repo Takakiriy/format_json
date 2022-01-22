@@ -4,7 +4,7 @@ import * as lib from "./lib";
 
 async function  main() {
 	console.log("");
-	console.log("Enter only: format the JSON in the clipboard");
+	console.log("Enter only: use the text in the clipboard");
 	const  input_file_path = await lib.input( "Input JSON UTF-8 file path>" );
 	if (input_file_path) {
 		const  output_file_path = input_file_path +".updating";

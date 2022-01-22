@@ -6,6 +6,7 @@ const inputDefault: string[] = [
 //    'test.json'
 ];
 
+
 // StandardInputBuffer
 class  StandardInputBuffer {
     readlines: readline.Interface | undefined;
